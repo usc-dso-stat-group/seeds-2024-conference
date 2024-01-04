@@ -732,7 +732,7 @@ Dynamic treatment effects: high-dimensional inference under model misspecificati
         </tr>
         <tr>
             <td class="speaker">
-              Title TBD.
+              Teach language models to reason
             </td>
         </tr>
             <td class="date" rowspan="2">
@@ -740,7 +740,8 @@ Dynamic treatment effects: high-dimensional inference under model misspecificati
             </td>
         <tr>
             <td class="abstract">
-                Abstract TBD.
+              Abstract: Over the past decades, the machine learning community has developed tons of data-driven techniques aimed at enhancing learning efficiency, such as semi-supervised learning, meta learning, active learning, and transfer learning. However, none of these techniques have proven to be highly effective for real-world natural language processing tasks. This shortcoming uncovers a fundamental flaw in machine learning - the absence of reasoning. Humans often learn from just a few examples because of their capacity to reason, as opposed to only relying on data statistics. In this talk, I will present the large language models (LLM) reasoning work that we pioneered, and show our innovative approaches significantly bridge the gap between human intelligence and machine learning: crushed state-of-the-art results in the literature while demanding only a few (usually just one) annotated examples and no training. This monumental shift from a learning-centric to a reasoning-centric paradigm is having a profound impact across a myriad of real-world applications.
+
             </td>
         </tr>
 
@@ -757,7 +758,7 @@ Dynamic treatment effects: high-dimensional inference under model misspecificati
         </tr>
         <tr>
             <td class="speaker">
-              Title TBD.
+              Data-efficient (Pre-)Training of Deep Networks
             </td>
         </tr>
             <td class="date" rowspan="2">
@@ -765,7 +766,7 @@ Dynamic treatment effects: high-dimensional inference under model misspecificati
             </td>
         <tr>
             <td class="abstract">
-                Abstract TBD.
+              Abstract: Large datasets have enabled over-parameterized neural networks to achieve unprecedented success. However, training such models, with millions or billions of parameters, on large data requires expensive computational resources,which consume substantial energy, leave a massive amount of carbon footprint, and often soon become obsolete and turn into e-waste. While there has been a persistent effort to improve the performance and reliability of machine learning models, their sustainability is often neglected. To improve the efficiency and sustainability of learning deep models, I discuss the first scalable framework with rigorous theoretical guarantees to identify the most valuable examples for training and pre-training deep networks. I also demonstrate the effectiveness of such a framework for (pre-)training various over-parameterized models on different vision and NLP benchmark datasets.
             </td>
         </tr>
     </table>
@@ -781,7 +782,7 @@ Dynamic treatment effects: high-dimensional inference under model misspecificati
         </tr>
         <tr>
             <td class="speaker">
-              Title TBD.
+              Understanding Optimization Geometry of Transformer Models
             </td>
         </tr>
             <td class="date" rowspan="2">
@@ -789,7 +790,7 @@ Dynamic treatment effects: high-dimensional inference under model misspecificati
             </td>
         <tr>
             <td class="abstract">
-                Abstract TBD.
+              Abstract: Recent advances in language modeling, such as ChatGPT, have had a revolutionary impact within a short timeframe. These language models are based on the transformer architecture which uses the self-attention mechanism as its central component to process language sequences. However, the theoretical principles underlying the attention mechanism are poorly understood, especially the nonconvex optimization dynamics. In this talk, we show that the optimization dynamics of the attention layer is biased towards implementing "hard retrieval" and "soft composition" operations. "Hard retrieval" refers to the model's ability to precisely select the set of "top tokens" within the input sequence (e.g. selecting the most relevant words within a sentence). The model accomplishes this by implicitly solving a support vector machine problem that separates the top tokens from the rest of the sequence. As its output, the model creates a convex combination of the top tokens which we refer to as "soft composition". Finally, we will discuss the next token prediction in language modeling where the input and output tokens belong to a discrete vocabulary. Here, we show that the generative process implemented by the transformer can be understood through a Markov chain-like process extracted from the training data. We will conclude by discussing new directions and open problems.
             </td>
         </tr>
     </table>
@@ -805,7 +806,7 @@ Dynamic treatment effects: high-dimensional inference under model misspecificati
         </tr>
         <tr>
             <td class="speaker">
-              Title TBD.
+              Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models
             </td>
         </tr>
             <td class="date" rowspan="2">
@@ -813,7 +814,7 @@ Dynamic treatment effects: high-dimensional inference under model misspecificati
             </td>
         <tr>
             <td class="abstract">
-                Abstract TBD.
+              Abstract: Harnessing the power of human-annotated data through Supervised Fine-Tuning (SFT) is pivotal for advancing  Large Language Models (LLMs). In this paper, we delve into the prospect of growing a strong LLM out of a weak one without the need for acquiring additional human-annotated data. We propose a new fine-tuning method called Self-Play fIne-tuNing (SPIN), which starts from a supervised fine-tuned model. At the heart of SPIN lies a self-play mechanism, where the LLM refines its capability by playing against instances of itself. More specifically, the LLM generates its own training data from its previous iterations, refining its policy by discerning these self-generated responses from those obtained from human-annotated data. Our method progressively elevates the LLM from a nascent model to a formidable one, unlocking the full potential of human-annotated demonstration data for SFT. Theoretically, we prove that the global optimum to the training objective function of our method is achieved only when the LLM policy aligns with the target data distribution. Empirically, we evaluate our method on several benchmark datasets including the HuggingFace Open LLM Leaderboard, MT-Bench, and datasets from Big-Bench. Our results show that SPIN can significantly improve the LLM's performance across a variety of benchmarks and even outperform models trained through direct preference optimization (DPO) supplemented with extra GPT-4 preference data. This sheds light on the promise of self-play, enabling the achievement of human-level performance in LLMs without the need for expert opponents.
             </td>
         </tr>
     </table>
