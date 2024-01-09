@@ -699,7 +699,7 @@ Abstract : A standard assumption in the Bayesian estimation of linear regression
         </tr>
         <tr>
             <td class="speaker">
-              Title TBD.
+              Rerandomization based on p-values from covariate balance tests
             </td>
         </tr>
             <td class="date" rowspan="2">
@@ -707,7 +707,12 @@ Abstract : A standard assumption in the Bayesian estimation of linear regression
             </td>
         <tr>
             <td class="abstract">
-                Abstract TBD.
+                Abstract: Randomized experiments balance all covariates on average and are considered the gold standard for estimating treatment effects. Chance imbalances are nonetheless common in realized treatment allocations, complicating the interpretation of experimental results. To inform readers of the comparability of treatment groups at baseline, contemporary scientific publications often report covariate balance tables with not only covariate means by treatment group but also the associated p-values from significance tests of their differences. The practical need to avoid small p-values as indicators of poor balance motivates balance check and rerandomization based on these p-values from covariate balance tests (ReP) as an attractive tool for improving covariate balance in randomized experiments. Despite
+the intuitiveness of such strategy and its possibly already widespread use in practice, the literature lacks results about its implications on subsequent inference, subjecting many effectively rerandomized experiments to possibly inefficient analyses. To fill this gap, we examine a variety of potentially useful
+schemes for ReP and quantify their impact on subsequent inference. Specifically, we focus on three estimators of the average treatment effect from the unadjusted, additive, and interacted linear regressions
+of the outcome on treatment, respectively, and derive their asymptotic sampling properties under ReP. The main findings are threefold. First, the estimator from the interacted regression is asymptotically the most efficient under all ReP schemes examined, and permits convenient regression-assisted
+inference identical to that under complete randomization. Second, ReP, in contrast to complete randomization, improves the asymptotic efficiency of the estimators from the unadjusted and additive regressions. Standard regression analyses are accordingly still valid but in general overconservative.
+Third, ReP reduces the asymptotic conditional biases of the three estimators and improves their coherence in terms of mean squared difference. Based on these results, we recommend using ReP for design and the interacted regression for analysis to ensure both covariate balance and efficient inference. Importantly, our theory is design-based and holds regardless of how well the models involved in both the rerandomization and analysis stages represent the true data-generating processes.
             </td>
         </tr>
     </table>
